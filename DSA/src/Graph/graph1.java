@@ -205,17 +205,17 @@ public class graph1 {
 			boolean check[]=new boolean[v];
 			Arrays.fill(check, false);
 			bfs(graph,0,v);
-			/*
+			
 			System.out.println("***Cycle Detection in Undirected Graph***");
-			Boolean check[]=new Boolean[v];
-			for(int i=0; i<check.length; i++) 
+			Boolean check2[]=new Boolean[v];
+			for(int i=0; i<check2.length; i++) 
 			{
-			  check[i]=false;
+			  check2[i]=false;
 			}
 			for(int i=0; i<v; i++)
 			{
-				if(!check[i]) {
-					boolean ans=isCycle(graph,check,i,-1);
+				if(!check2[i]) {
+					boolean ans=isCycle(graph,check2,i,-1);
 				if(ans) {
 					System.out.println("True");
 			        return;
@@ -223,7 +223,7 @@ public class graph1 {
 				}
 			}
 			System.out.println("False");
-			*/
+			
 			/*
 			System.out.println("*****Cycle Detection*****");
 			Boolean check[]=new Boolean[v];
@@ -262,9 +262,9 @@ public class graph1 {
 			*/
 			
 			System.out.println("****Graph Traversal****");
-			boolean check2[]=new boolean[v];
-			Arrays.fill(check2, false);
-			dfs(graph,0,check2);
+			boolean check3[]=new boolean[v];
+			Arrays.fill(check3, false);
+			dfs(graph,0,check3);
 			
 			/*
 			String print="";
