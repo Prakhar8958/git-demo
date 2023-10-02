@@ -260,12 +260,12 @@ public class graph1 {
 					System.out.print(s.pop()+" ");
 				}
 			*/
-			
+			/*
 			System.out.println("****Graph Traversal****");
 			boolean check3[]=new boolean[v];
 			Arrays.fill(check3, false);
 			dfs(graph,0,check3);
-			
+			*/
 			/*
 			String print="";
 			sourceToTarget(graph,check,"0",0,5);
